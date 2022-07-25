@@ -43,7 +43,7 @@ int main() {
 			}else i++;
 		}
 		
-		return j >= m;	
+		return j == p.length();	
 	}; 
 	
 	int l = 0, r = n, ans = 0;
@@ -57,4 +57,3 @@ int main() {
 	}
 	cout << ans << "\n";
 	//r can also be the answer (ans == r)
-}                                             
